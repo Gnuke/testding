@@ -46,5 +46,6 @@
 </head>
 <body>
 <%= sb.toString() %>
+이부분은 세션체크 추가한부분입니다.
 </body>
 </html>
