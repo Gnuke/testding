@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+	min-height: 100vh;
+	background: #f8f9fa;
+}
+
+.btn-primary2{
+   background-color:  #98c6db;
+   width: 25%;
+   margin-left: 5%;
+   color : #fff;
+}
+
+#country{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Adjust as needed */
+    MARGIN-BOTTOM: 10PX;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-form input[type="text"],
+.input-form input[type="password"],
+.input-form input[type="email"],
+.input-form button {
+	font-size: 1.2em; /* 텍스트 크기 증가 */
+}
+
+.mb-3{
+	text-align: center;
+}
+
+.btn-primary{
+	background-color:  #98c6db;
+}
+
+.input-form {
+	max-width: 680px;
+	margin-top: 80px;
+	padding: 32px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 430px) {
+    .input-form {
+            margin-top: 0px;
+   height: 100%;
+        }
+   .btn-primary2{
+   width: 35%;
+   }
+}
